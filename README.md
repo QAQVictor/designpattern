@@ -1,5 +1,5 @@
 # designpattern
-## Study and practice of Design Pattern
+  Study and practice of Design Pattern
 
 ### 2018-01-29
   add factory pattern test
