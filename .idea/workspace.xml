@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11bdd1ef-2f72-46f7-8306-5e57fcd948f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singleton/Singleten3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singleton/Singleton1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/singleton/Singleton2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -714,7 +711,7 @@
       <workItem from="1517217409532" duration="4737000" />
       <workItem from="1517223568521" duration="2000" />
       <workItem from="1517224852640" duration="1067000" />
-      <workItem from="1517290501017" duration="2073000" />
+      <workItem from="1517290501017" duration="2099000" />
     </task>
     <task id="LOCAL-00001" summary="hello git">
       <created>1517224929680</created>
@@ -737,11 +734,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517225127921</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hello git">
+      <created>1517294255052</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517294255052</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7879000" />
+    <option name="totallyTimeSpent" value="7905000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
