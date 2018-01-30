@@ -3,8 +3,8 @@
 
 >2018-01-29
 ------
->add factory pattern test
+  add factory pattern test
 
 >2018-01-30
 ------
->add singleton test
+  add singleton test
