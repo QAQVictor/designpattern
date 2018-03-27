@@ -7,7 +7,7 @@ package singleton;
  * 线程安全
  */
 public class Singleten3 {
-    private static Singleten3 singleten3 = null;
+    private volatile static Singleten3 singleten3 = null;
 
     private Singleten3() {
 
