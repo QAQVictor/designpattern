@@ -22,14 +22,15 @@ public class Agency implements InvocationHandler {
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
         System.out.println("看房子");
-        Object result= method.invoke(target, args);
+        Object result = method.invoke(target, args);
         System.out.println("办手续");
         return result;
     }
 
-    public static void main(String[] args){
-        Buyer buyer=new Buyer();
-        BuyHouse agency= (BuyHouse) Proxy.newProxyInstance(buyer.getClass().getClassLoader(),buyer.getClass().getInterfaces(),new Agency(buyer));
+    public static void main(String[] args) {
+        Buyer buyer = new Buyer();
+        Buyer1 buyer1 = new Buyer1();
+        BuyHouse agency = (BuyHouse) Proxy.newProxyInstance(buyer.getClass().getClassLoader(), buyer.getClass().getInterfaces(), new Agency(buyer));
         System.out.println(agency.getClass());
         agency.buyHouse();
     }
